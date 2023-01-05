@@ -22,8 +22,7 @@ def webhook():
         params = {
             "symbol": ticker,
             "side": side,
-            "type": "LIMIT",
-            'timeInForce': "GTC",
+            "type": "MARKET",
             "quantity": quantity,
             "price": price,
         }
