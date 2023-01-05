@@ -24,7 +24,6 @@ def webhook():
             "side": side,
             "type": "MARKET",
             "quantity": quantity,
-            "price": price,
         }
 
         Client(binanceApiKey, binanceSecretKey).new_order(**params)
